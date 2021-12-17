@@ -1,15 +1,30 @@
 @font-face {
-    font-family: 'Futura-LT';
-    src: url(Assets/Polices/FuturaLT-Book.ttf);
+    font-family: 'Proxima';
+    src: url('Assets/Polices/Proxima-Nova-Font.otf') format('woff'),
+    url('Assets/Polices/Proxima-Nova-Font.otf') format('opentype'),
+    url('Assets/Polices/Proxima Nova Font.otf') format('truetype');
 }
 @font-face {
+    font-family: 'Proxima-Black';
+    src: url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black.otf') format('woff'),
+    url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black.otf') format('opentype'),
+    url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Proxima-Black-Italic';
+    src: url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black-It.otf') format('woff'),
+    url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black-It.otf') format('opentype'),
+    url('Assets/Polices/FontsFree-Net-Proxima-Nova-Black-It.otf') format('truetype');
+}
+ /* @font-face {
     font-family: 'Futura';
     src: url(Assets/Polices/futur.ttf);
-}
-@font-face {
+} */
+ @font-face {
     font-family: 'Aurea';
     src: url(Assets/Polices/AureaUltra_Roman.ttf);
-}
+} 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -43,9 +58,9 @@
 
 .nav-link{
     display: inline;
-    font-family: 'Futura';
-    font-size: 1vw;
-    font-weight: bolder;
+    font-family: 'Proxima';
+    font-size: 1.3vw;
+    font-weight: 900;
     color: #101010;  
     text-decoration: none;
 
@@ -80,18 +95,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1vw 0;
+    padding: 1.7vw 0;
     /* padding: 5vw; */
 }
 .banner h1{
-    font-family: 'Futura';
-    font-size: 4vw;
+    font-family: 'Proxima-Black';
+    font-size: 4.5vw;
     color:#FFFFFF;
 }
 .banner p{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color:#FFFFFF;
     font-size: 1.5vw;
+    padding-top: 1vw;
 }
 
 .block{
@@ -107,13 +123,13 @@
     margin-right: 2vw;
 }
 .btn_decouvrir a{
-    font-family: 'Futura';
+    font-family: 'Proxima';
     float: right;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-decoration: none;
     color:#FFFFFF;
     background-color: #101010;
-    padding: 1vw;
+    padding: 1vw 2vw;
     cursor: pointer;
     border-radius: 9px;
 }
@@ -122,7 +138,7 @@
     color: #101010;
 }
 .decouvrir{
-    font-family: 'Aurea';
+    font-family: 'Proxima-Black-Italic';
     color:#FFFFFF;
     margin: 7vw 5vw 5vw 5vw;
     font-size: 1.5vw;
@@ -137,18 +153,19 @@
     font-size: 1.2vw;
     line-height: 2.2vw;
 }
-.programme h2{
+.programme h2, .objectifs h2{
     width: 100%;
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     float: left;
     color:#FFFFFF;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-bottom: 1vw;
 }
+
 .programme p{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color:#FFFFFF;
-    margin-bottom: 1.2vw;
+    margin-bottom: 1.3vw;
 }
 .dropdown {
     width : 80%; 
@@ -158,7 +175,7 @@
 }  
 span{
     padding : 12px 40px;
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     background : #FFFFFF; 
     color :#EC6633;
     font-size : 1em;
@@ -182,7 +199,7 @@ span::after {
     transition: height .4s ease;
 }  
 .slide li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding : 10px; 
 } 
@@ -198,7 +215,7 @@ span::after {
 
 
 .slide2 li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding : 10px;
 } 
@@ -214,30 +231,30 @@ span::after {
 
 .objectifs h2{
     width: 100%;
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     float: left;
     color:#FFFFFF;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-bottom: 1vw;
 }
 .objectifs p{
     width: 100%;
-    font-family: 'Futura';
+    font-family: 'Proxima';
     font-size: 1.3vw;
     float: left;
     color:#FFFFFF;
     margin-bottom: 1vw;
 }
 .objectifs ul{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color:#FFFFFF;
     margin-top: 1vw;
     list-style-type: none;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     line-height: 2.2vw;
 }
 .slide3{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color:#EC6633;
 }
 #touch3{
@@ -268,7 +285,7 @@ span::after {
 }
 
 .slide4 li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding : 8px;
 }
@@ -281,7 +298,7 @@ span::after {
     height: auto;
 } 
 .slide4 h3{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     margin: 1vw 0;
 }
@@ -290,12 +307,12 @@ span::after {
     list-style-type: none;
 }
 .slide5 li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding : 10px;
 }
 .slide5 h3{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     margin: 1vw 0;
 }
@@ -312,10 +329,10 @@ span::after {
 }
 .reussite h2{
     width: 100%;
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     float: left;
     color:#FFFFFF;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-bottom: 1vw;
     padding-left: 5vw;
 }
@@ -333,14 +350,14 @@ span::after {
     list-style-type: none;
 }
 .avis li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding: 1vw 1.5vw;
 }
 
 
 .satisfaction{
-    font-family: 'Aurea';
+    font-family: 'Proxima-Black-Italic';
     color:#FFFFFF;
     margin: 4vw 5vw 4vw 5vw;
     font-size: 1.5vw;
@@ -358,7 +375,7 @@ span::after {
     height: auto;
 } 
 .slide7 li{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #EC6633;
     padding : 1vw 3vw; 
 } 
@@ -379,18 +396,19 @@ span::after {
     
 }
 .devis h2{
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     font-size: 2.8vw;
     color: #8651A1;
 }
 .devis a{
-    font-family: 'Futura';
+    font-family: 'Proxima';
     margin: 3vw 2vw;
     text-decoration: none;
     color: #8651A1;
     border: #8651A1 2px solid;
     padding: 0.8vw 4vw; 
     border-radius: 9px;
+    font-size: 1.2vw;
 }
 .devis a:hover{
     background-color: #8651A1;
@@ -398,14 +416,14 @@ span::after {
 }
 
 .dates h3, .infos h3{
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     color: #8651A1;
-    font-size: 1.2vw; 
+    font-size: 1.5vw; 
     margin: 1vw 0; 
 }
 .dates ul , .infos ul{
     list-style-type: none;
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #8651A1;
     margin-left: 2vw;
 }
@@ -430,7 +448,7 @@ span::after {
    
 }
 .qualiopi p{
-    font-family: 'Futura';
+    font-family: 'Proxima';
     font-size: 1.5vw;
     color:#8651A1;  
 }
@@ -439,8 +457,8 @@ span::after {
     padding: 3vw 4vw 3vw 4vw
 }
 .volets p{
-    font-family: 'Futura';
-    font-size: 1.2vw;
+    font-family: 'Proxima';
+    font-size: 1.3vw;
     color: #FFFFFF;
 }
 .theorie{
@@ -448,7 +466,7 @@ span::after {
     padding-top: 3vw;
 }
 .theorie h2{
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     font-size: 2vw;
     color: #E01E1C;
 }
@@ -457,8 +475,8 @@ span::after {
     padding-top: 1.5vw;
 }
 .theorie li{
-    font-family: 'Futura';
-    font-size: 1.2vw;
+    font-family: 'Proxima';
+    font-size: 1.3vw;
     color:#FFFFFF;
 }
 .theorie .orange{
@@ -471,14 +489,14 @@ span::after {
     text-align: center;
 }
 .definition h2{
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     font-size: 2.5vw;
     color:#8651A1;
     padding-bottom: 4vw;
 }
 .definition a{
     position: relative;
-    font-family: 'Futura';
+    font-family: 'Proxima';
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1.5vw;
@@ -512,7 +530,7 @@ span::after {
 .inbound{
     text-align: center;
     margin-top: 8vw;
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
     font-weight: bold;
     font-size: 1vw;
     color: #8651A1;
@@ -526,12 +544,13 @@ span::after {
     padding: 3vw 4vw 3vw 4vw
 }
 .attirer h2{
-    font-family: 'Futura';
+    font-family: 'Proxima-Black';
+    font-weight: bold;
     color: #8651A1;
     font-size: 1.2vw;
 }
 .attirer p{
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
     color: #8651A1;
     font-size: 1.2vw;
     padding: 1vw 0 2vw 0;
@@ -561,7 +580,7 @@ span::after {
     margin: none;
     padding-right: 1.5vw;
     color:#FFFFFF;
-    font-family: 'Futura-LT';
+    font-family: 'Proxima';
    
 }
 .informations ul{
@@ -616,7 +635,7 @@ span::after {
         font-size: 5vw;
     }
     .banner p{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .btn_decouvrir{
         display: flex;
