@@ -705,7 +705,7 @@ span::after {
     }
     .qualiopi p{
         font-size: 2.7vw;
-        padding: 3vw;
+        padding-right: 2vw;
     }
     .volets{
         text-align: center;  
